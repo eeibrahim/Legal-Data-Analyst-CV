@@ -1,1 +1,0 @@
-# Legal-Data-Analyst-CV
