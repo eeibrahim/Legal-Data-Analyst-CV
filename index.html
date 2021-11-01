@@ -1,0 +1,221 @@
+<!-- I started by generating basic html markup with '!' -->
+<!-- I then installed live server through file-> preferences -> extensions -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css"> 
+        <!-- the line above is what links this HTML with the CSS document, doing so with a REL attribute -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body>
+    <main class="main-content">   
+        <!-- this is where we created right and left sections which we then styled in our CSS -->
+        <!-- main class is the BODY of the document -->
+        <section class="left-section">
+            <div class="left-content"><div class="profile">
+                <img src = "/avatar.jpg" alt = "">
+                <h2 class="name">Elfadil Ibrahim</h2>
+                <p class="career">Legal Data Analyst</p>
+            </div>
+            <!-- h2 and h3 are second and third level headings..syntax is "h2.name" and p class is paragraph ..syntax "p.career" -->
+            <div class="contact-info">
+                <h3 class="main-title">Contact</h3>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        +17137490439
+                    </li>    
+                    <li>
+                        <i class="fa fa-fax"></i>
+                        elfadil.ibrahim@gmail.com
+                    </li>
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <a href="https://eeibrahim-blogdown.netlify.app/" style="color: orange">Portfolio website</a>
+                    </li> 
+                    <li>
+                        <i class="fa fa-github"></i>
+                        <a href="https://github.com/eeibrahim/" style="color: orange">Github</a>
+                        <!-- this is syntax to make create hyperlink -->
+                    </li>
+                    <li>
+                        <!-- <i class="fa fa-map-marker"></i> -->
+                        <!-- Khobar, Saudi Arabia -->
+                    </li>           
+                </ul>
+            </div>
+            <!-- skills section was just similar coding to contact info..left section, div/h3--> 
+            <div class="skills-section">
+                <!-- <h3 class="main-title">Publications</h3> -->
+                <h3 class="main-title">Skills</h3>
+                <ul>
+                    <li>
+                        <p class="skill-title">R</p>
+                        <!-- p tag is cleaner here...p tag = paragraph vs. header..this used to be h5 -->
+                        <div class="progress-bar">
+                            <div class="progress R-progress"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="skill-title">Excel/Google Sheets</p>
+                        <div class="progress-bar">
+                            <div class="progress EGS-progress"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="skill-title">SQL</p>
+                        <div class="progress-bar">
+                            <div class="progress SQL-progress"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="skill-title">HTML/CSS</p>
+                        <div class="htmltext">
+                        <br>
+                        *This resume was created using HTML/CSS
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        <!-- <div class="references-section"></div>
+            <div class="referee">
+                <h3 class="main-title">References</h3>
+                <h6 class="sub-title">Michael Jordan</h6> 
+                <p class="sub-para">Baskbetball player</p>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        +17137490439
+                    </li>    
+                    <li>
+                        <i class="fa fa-fax"></i>
+                        elfadil.ibrahim@gmail.com
+                    </li>  -->
+                    </ul> 
+                </div>
+            </div>
+            </div>
+        </section>
+    <section class="right-section">
+        <div class="right-main-content">
+            <h2 class="right-title"> About Me</h2>
+            <p class="para">
+            I Completed the Google Data Analytics <a href="https://drive.google.com/file/d/1EWSlZNx1jeQWHFgOMsCpeFaN8dNjOfrk/view?usp=sharing">Certificate </a>  in July 2021. I have 3.5 years’ experience working as part of a legal team for a relief and development organization and five years’ experience as a lecturer in Law. I am now looking for a position where I can combine my skills as a data analyst with my years of experience in Legal support and Legal Education. 
+            <br>
+             <br> I am also fluent in Arabic and English and have been Published in various media outlets (The <a href=http://www.guardian.co.uk/commentisfree/2011/dec/07/sudan-arab-spring> Guardian</a>, <a href=http://www.opendemocracy.net/opensecurity/elfadil-ibrahim/battle-for-heglig-and-elephant-in-room> Open Democracy </a>) in addition to the <a href=http://jwelb.oxfordjournals.org/content/6/3/234.short?rss=1> Oxford University Journal of World Energy Law and Business. </a>
+            </p>
+
+
+            <section class="experience sect">
+                <h2 class="right-title"> Experience</h2>
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">University of Medical Sciences and Technology-Khartoum, Sudan</h5>
+                        <p class="para">2012 - 2013</p>
+                    </div>
+                    <div class="right-tl-content">
+                    <div class="tl-content">
+                        <h5 class="tl-title-2">Lecturer</h5>
+                        <p class="para">
+                        Myself and the Dean established the faculty, the first bi-lingual legal program (English, Arabic) in Sudan. In addition, I served as Lecturer in Constitutional law and Introduction to Law.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">Islamic Relief USA</h5>
+                        <p class="para">2013 - 2016</p>
+                    </div>
+                    <div class="right-tl-content">
+                    <div class="tl-content">
+                        <h5 class="tl-title-2">Compliance Administrator</h5>
+                        <p class="para">
+                        This position involved writing, revising, and auditing all organizational policies and procedures. Examples include Procurement, Political Advocacy, Travel Security, Fundraising, Grant making, and others. I also Managed an insurance budget of roughly $200,000 and was responsible for all insurance and risk-management related items.
+                        <br>
+                        <br> I undertook a major overhaul of the organizations insurance coverage, which saved the organization tens of thousands of US dollars and allowed it to fund projects and undertake field visits to high-risk locations.  The position also involved review of contracts as well as  Arabic-English translation and legal research.
+                    </p>
+                </div>
+            </div>
+        </div>
+            
+            
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">Prince Mohammad Bin Fahd University (Khobar, KSA)</h5>
+                        <p class="para">2016 - Present</p>
+                    </div>
+                    <div class="right-tl-content">
+                    <div class="tl-content">
+                        <h5 class="tl-title-2">Lecturer</h5>
+                        <p class="para">  Lecturer and developer of the Oil and Gas Law course in the Law department, and other Comparative Law Subjects (Constitutional and Commercial primarily).<br><br> I have been Highest-rated in the department for teaching quality in multiple semesters (Student reviews available upon request).
+                    </div>
+                </div>
+            </div>
+            <!-- copy above chunk to add another new job -->
+
+        </section>
+        </div>
+       
+        <section class="Education sect">
+            <h2 class="right-title"> Education/Certs</h2>
+            <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">University of Edinburgh</h5>
+                        <p class="para">2006 - 2010</p>
+                    </div>
+                    <div class="right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="tl-title-2">Bachlor of Law (LL.B.)</h5>
+                            <p class="para">
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    
+                <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">University of Aberdeen</h5>
+                            <p class="para">2010 - 2011</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Oil and Gas Law (LL.M.)</h5>
+                                <p class="para">
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">Google Data Analytics Certification</h5>
+                        <p class="para">July 2021</p>
+                    </div>
+                    <div class="right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="tl-title-2">Google Data Analytics Certificate</h5>
+                            <p class="para">
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <section class="Selected Publications"></section> -->
+            <!-- do same as above..copying timeline -->
+        </section>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
